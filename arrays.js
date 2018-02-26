@@ -1,4 +1,4 @@
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
+/*var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(a, b) {
   var c = [b, ...a]
@@ -29,11 +29,12 @@ function destructivelyRemoveElementFromBeginningOfArray(a) {
 function removeElementFromBeginningOfArray(a) {
   return a.slice(1)
 }
-
+*/
 function destructivelyRemoveElementFromEndOfArray(a) {
   return a.pop()
 }
-
+/*
 function removeElementFromEndOfArray(a) {
   return a.slice(0, a.length - 1)
 }
+*/
