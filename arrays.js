@@ -10,11 +10,14 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
   return a
 }
 
-function addElementToEndOfArray() {
-  
+function addElementToEndOfArray(a, b) {
+  var c = a.push(b)
+  return c
 }
 
-function 
+function destructivelyAddElementToEndOfArray(a, b) {
+  a = a.push(b)
+}
 
 function accessElementInArray(a, i) {
   return a[i]
